@@ -51,9 +51,9 @@ pip install selenium
 
 ## 4. Test Data Used
 
-- First Name : Ram
-- Last Name : Bahadur
-- Email : ram.bahadur@gmail.com
+- First Name : Test
+- Last Name : User
+- Email : test.user@gmail.com (test email)
 - Phone Number : 9818181818 (dummy number)
 - Password : R@M1bahadur
 

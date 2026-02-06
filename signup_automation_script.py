@@ -5,15 +5,14 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-firstname = "Ram"
-lastname="Bahadur"
-email="ram.bahadur@email.com"
+firstname = "Test"
+lastname="User"
+email="test.user@email.com"
 phoneNumber = 9818181818
 password="R@M1bahadur"
 confirmPassword="R@M1bahadur"
 
 options = Options()
-options.add_argument("--start-maximized")
 service = Service("chromedriver.exe")
 driver = webdriver.Chrome(service=service, options=options)
 
@@ -66,6 +65,6 @@ try:
 
 except Exception as e:
     print(e)
-    
+
 finally:
     driver.quit()
