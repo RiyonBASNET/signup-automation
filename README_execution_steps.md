@@ -28,7 +28,8 @@ The automation covers:
 
 Install Selenium via pip
 
-- pip install selenium
+```bash
+ pip install selenium
 
 ### ChromeDriver Setup
 
@@ -69,3 +70,4 @@ Install Selenium via pip
 - OTP is sent to the registered email address
 - Automating OTP entry is intentionally skipped due to security and privacy constraints
 - The automation validates successful completion of Account Setup by confirming navigation to Email Varification page
+```
