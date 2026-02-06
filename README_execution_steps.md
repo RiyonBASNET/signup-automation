@@ -47,23 +47,24 @@ Install Selenium via pip
 ```
 
 2. Activate virtual environment (optional but recommended)
-   ```bash
-   python -m venv venv
-   venv\Scripts\activate
-   ```
 
-````
+```bash
+   python -m venv venv
+   .\venv\Scripts\activate
+```
+
 3. Install dependencies
-   ```bash
+
+```bash
    pip install -r requirements.txt
-````
+```
 
 4. Run the script
-   ```bash
-   python signup_automation_script.py
-   ```
 
+```bash
+   python signup_automation_script.py
 ```
+
 - The browser will open automatically
 - It will navigate through the signup form
 - It will stop at the Email Verification Code
@@ -82,9 +83,3 @@ Install Selenium via pip
 - OTP is sent to the registered email address
 - Automating OTP entry is intentionally skipped due to security and privacy constraints
 - The automation validates successful completion of Account Setup by confirming navigation to Email Varification page
-
-```
-
-```
-
-```
