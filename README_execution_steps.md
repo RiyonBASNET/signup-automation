@@ -8,7 +8,7 @@ The automation covers:
 
 - Opening the landing page
 - Clicking "Get Started" to reach signup page
-- Agreeing to Terms of Services
+- Agreeing to Terms of Service
 - Filling all required form fields:
   - First Name
   - Last Name
@@ -29,7 +29,12 @@ The automation covers:
 Install Selenium via pip:
 pip install selenium
 
-## 3. How to Run the script
+### ChromeDriver Setup
+
+- Download ChromeDriver matching your installed Google Chrome version
+- Place 'chromedriver.exe' in the project root directory OR add it to the system PATH
+
+## 3. How to Run the Script
 
 1. Clone the repository:
    git clone https://github.com/RiyonBASNET/signup-automation.git
@@ -59,6 +64,7 @@ pip install selenium
 
 ## 5. OTP Handling
 
-- The script does not automate OTP entry
-- It validates that the Email Verification page is reached successfully
-- This is intentionsl due to security and privacy constraints
+- The signup flow requires email verification after Account Setup
+- OTP is sent to the registered email address
+- Automating OTP entry is intentionally skipped due to security and privacy constraints
+- The automation validates successful completion of Account Setup by confirming navigation to Email Varification page
