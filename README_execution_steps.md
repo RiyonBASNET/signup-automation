@@ -26,8 +26,9 @@ The automation covers:
 - ChromeDriver matching Google Chrome version
 - Selenium 4.x
 
-Install Selenium via pip:
-pip install selenium
+Install Selenium via pip
+
+- pip install selenium
 
 ### ChromeDriver Setup
 
