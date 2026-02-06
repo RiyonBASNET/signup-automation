@@ -7,7 +7,7 @@ This Python script automates the signup process on: https://authorized-partner.v
 The automation covers:
 
 - Opening the landing page
-- Clicking "Get Started" to reach signup page
+- Clicking "Get Started" to reach the signup page
 - Agreeing to Terms of Service
 - Filling all required form fields:
   - First Name
@@ -17,7 +17,7 @@ The automation covers:
   - Password
   - Confirm Password
 - Submitting the signup form
-- Stopping at the Email Verification Code page (OTP is not automated for security reasons)
+- Stopping when the Email Verification (OTP) section is rendered (OTP is not automated automated for security reasons)
 
 ## 2. Prerequisites / Environment
 
@@ -35,7 +35,7 @@ Install Selenium via pip
 ### ChromeDriver Setup
 
 - Download ChromeDriver matching your installed Google Chrome version
-- Place 'chromedriver.exe' in the project root directory OR add it to the system PATH
+- Place `chromedriver.exe` in the project root directory OR add it to the system PATH
 
 ## 3. How to Run the Script
 
@@ -67,7 +67,7 @@ Install Selenium via pip
 
 - The browser will open automatically
 - It will navigate through the signup form
-- It will stop at the Email Verification Code
+- It will stop when the Email Verification (OTP) section is displayed
 
 ## 4. Test Data Used
 
@@ -82,4 +82,4 @@ Install Selenium via pip
 - The signup flow requires email verification after Account Setup
 - OTP is sent to the registered email address
 - Automating OTP entry is intentionally skipped due to security and privacy constraints
-- The automation validates successful completion of Account Setup by confirming navigation to Email Varification page
+- The automation validates successful completion of Account Setup by confirming that Email Verification(OTP) section is rendered
