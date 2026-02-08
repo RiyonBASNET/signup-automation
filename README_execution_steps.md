@@ -17,7 +17,7 @@ The automation covers:
   - Password
   - Confirm Password
 - Submitting the signup form
-- Stopping when the Email Verification (OTP) section is rendered (OTP is not automated automated for security reasons)
+- Stopping when the Email Verification (OTP) section is rendered (OTP is not automated for security reasons)
 
 ## 2. Prerequisites / Environment
 
@@ -26,7 +26,7 @@ The automation covers:
 - ChromeDriver matching Google Chrome version
 - Selenium 4.x
 
-Install Selenium via pip
+Install Selenium via pip:
 
 ```bash
  pip install selenium
@@ -75,11 +75,13 @@ Install Selenium via pip
 - Last Name : User
 - Email : test.user@gmail.com (test email)
 - Phone Number : 9818181818 (dummy number)
-- Password : R@M1bahadur
+- Password : Test@1234
 
 ## 5. OTP Handling
 
-- The signup flow requires email verification after Account Setup
-- OTP is sent to the registered email address
-- Automating OTP entry is intentionally skipped due to security and privacy constraints
-- The automation validates successful completion of Account Setup by confirming that Email Verification(OTP) section is rendered
+- The signup flow requires email-based OTP verification after Account Setup
+- The OTP is sent to the registered email address
+- For this assignment, a dummy/test email address was used, so the received OTP is not accessible
+- As a result, OTP verification cannot be completed
+- The automation validates successful progression by confirming that the Email Verification (OTP) section is rendered
+- Full OTP automation would require access to a test email inbox or a fixed test OTP provided by the system
